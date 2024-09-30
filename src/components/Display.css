@@ -1,0 +1,35 @@
+.display {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxer1 {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: yellow;
+}
+
+.boxer2 {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: pink;
+}
+
+.boxer3 {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: bisque;
+}
+
+.boxer4 {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: aquamarine;
+}

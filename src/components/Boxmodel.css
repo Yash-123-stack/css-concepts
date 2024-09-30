@@ -1,0 +1,15 @@
+.Box-model {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 80px 50px;
+    background-color: rgb(162, 217, 217);
+    border-radius: 20px;
+    width: 250px;
+    margin: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.box-model {
+    text-align: center;
+    font: bolder;
+}

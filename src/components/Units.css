@@ -1,0 +1,50 @@
+/* .units {
+    color: black;
+    background-color: beige;
+    border: 2px solid red;
+    width: 50%;
+}
+
+.child {
+    border: 2px solid green;
+    background-color: aqua;
+    width: 50%;
+} */
+
+/* .parent {
+    border: 2px solid red;
+    background-color: beige;
+    /* width: 50vw; here we have implemented the view width
+    height: 100vh; here we have implemented the view height */
+    /* Physical pixel is nothing but 1/96inch or the value of 1 px = 1/96inch, its value will remain constant  
+} */
+
+/* .box1 {
+    background-color: aquamarine;
+    border: 2px solid red;
+    font-size: 100px;
+} */
+
+/* em units  */
+/* .wrapper {
+    font-size: 1em;
+}
+
+.px {
+    width: 200px;
+}
+
+.vw {
+    width: 10vw;
+}
+/* em value depends with respect to the parent  */
+/* .em { 
+    width: 10em;
+} */
+/* rem value is dependent upon our root element */
+
+.firstPara {
+    border: 2px solid red; 
+    font-size: 5rem; /* here the default size of our root element is 16px so with respect to 16px the size will become 5*16 which is 80px  */
+}
+/* while creating responsive designs we try to use relative units more as compared to absolute units */

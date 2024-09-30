@@ -1,0 +1,51 @@
+.animations {
+    background-color: greenyellow;
+}
+.gift {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* animation-name: yash; we can give any name that we want */
+    animation-name: yash1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;  /* animation kitni baar chalega */
+    /* animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;/*  it will wait for 3 s then it will continiue the animation 
+    animation-direction: reverse; */
+    /* shorthand property for animation */
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+    animation: yash1 5s ease-in 1s 12 backwards;
+}   
+/* here we are signifying that when the animation gets completed by 0% then it should display what behaviour and when the animation gets 25% completed then do what */
+@keyframes yash1 { 
+    0% {
+        top: 0px;
+        left:0px;
+
+    }
+    25% {
+        top: 250px;
+        left: 0px;
+    }
+    75% {
+        top: 250px;
+        left: 250px;
+    }  
+    100% {
+        top: 0px;
+        left: 250px;
+    }
+
+}
+/* to create an animation we'll be using animation keyframe */
+@keyframes yash {
+    from {
+    /*  the width here signifies the duration for the animation to take place i.e from 200px to 400px */
+    width: 200px;
+    }
+    to {
+    width: 400px;
+    }
+}

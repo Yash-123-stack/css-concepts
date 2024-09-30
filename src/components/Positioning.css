@@ -1,0 +1,31 @@
+/* Types of positions static( default ) , absolute, relative, sticky */
+.container4 {
+    border: 2px solid black;
+    background-color: khaki;
+    height: 3444px;
+}
+.boxes {
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px; 
+    height: 150px;
+    margin: 2px;
+}
+
+#boxi3 {
+    /* position: relative;
+    /* relative to its normal position and will leave a gap at its normal position 
+    top: 34px;
+    left: 34px; */
+     /* position: absolute;
+   It will move the box relative to its parent position 
+    top: 34px;
+    left: 134px; */
+    /* It will remain intact even if we scroll */
+    /* position: fixed;
+    right: 4px;
+    bottom: 2px; */
+    /* here we will be implementing the sticky position */
+    position: sticky;
+    top: 3px;
+}

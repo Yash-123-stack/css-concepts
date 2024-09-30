@@ -1,0 +1,17 @@
+.color-class {
+    color: green;
+}
+
+
+#attribute-1 {
+    color: yellow;
+}
+
+#attribute-2 {
+    color: rgb(0,255,0);
+}
+
+#attribute-3 {
+    color: #000000;
+    background-color: aquamarine;
+}

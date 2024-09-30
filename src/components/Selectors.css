@@ -1,0 +1,29 @@
+/* body {
+    background-color: cyan;
+} */
+
+/* * {
+    border: 1px solid red;
+} */
+/* This is a element selector class */
+p {
+     justify-content: center;
+}
+/* This is a id selector class  */
+#id-selector1 {
+    text-align: right;
+}
+
+#id-selector2 {
+    text-align: left;
+}
+/* This is a class selector */
+.class-selector {
+    text-align: right;
+}
+/* This is a grouping selector */
+span, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

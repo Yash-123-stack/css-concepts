@@ -1,0 +1,25 @@
+a {
+    text-decoration: line-through;
+    cursor: pointer;
+    text-decoration-style:wavy;
+    text-decoration-color:aqua;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    /* text-shadow: 4px 1px 10px red; here the third attribute is used to give blurry effect */
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: left;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    word-spacing: 10px;
+    white-space: wrap;
+    font-size: 600;
+    font-style: italic;
+}
